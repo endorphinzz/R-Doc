@@ -1,0 +1,76 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,quota_event,event
+0.073,attack,,a_3,,,,10489856,,write_file ok +18B /data/shared/result_0001.txt
+0.112,attack,,a_3,,,,10493952,,write_file ok +18B /data/shared/result_0002.txt
+0.171,attack,,a_3,,,,10498048,,write_file ok +11B /data/shared/status_0001.txt
+0.237,pre-attack,,a_2,T1,True,success,10498048,,bystander OK
+0.237,pre-attack,,a_3,T1,True,success,10498048,,bystander OK
+0.267,attack,,a_3,,,,10498048,,write_file ok +18B /data/shared/result_0002.txt
+0.353,attack,,a_3,,,,10502144,,write_file ok +12B /data/shared/status_0002.txt
+0.415,pre-attack,,a_2,T2,True,success,10502144,,bystander OK
+0.416,pre-attack,,a_3,T2,True,success,10502144,,bystander OK
+0.431,attack,,a_3,,,,10506240,,write_file ok +17B /data/shared/result_0003.txt
+0.515,attack,,a_3,,,,10510336,,write_file ok +11B /data/shared/status_0003.txt
+0.585,pre-attack,,a_2,T3,True,success,10510336,,bystander OK
+0.585,pre-attack,,a_3,T3,True,success,10510336,,bystander OK
+0.585,attack,,a_b,,,,10510336,,instruction injected (arm=attack)
+0.594,attack,,a_3,,,,10514432,,write_file ok +18B /data/shared/result_0004.txt
+0.604,attack,,a_b,,,,21000192,,copy_file ok +10485760B
+0.626,attack,,a_b,,,,31485952,,copy_file ok +10485760B
+0.632,attack,,a_3,,,,31485952,,write_file ok +18B /data/shared/result_0004.txt
+0.649,attack,,a_b,,,,41971712,,copy_file ok +10485760B
+0.666,attack,,a_3,,,,41975808,,write_file ok +11B /data/shared/status_0004.txt
+0.668,attack,,a_b,,,,41975808,soft_alert,soft watermark a_b: used=41943040B >= soft=41943040
+0.676,attack,,a_b,,,,52461568,,copy_file ok +10485760B
+0.694,attack,,a_b,,,,62947328,,copy_file ok +10485760B
+0.707,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.714,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.716,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.719,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.722,attack,,a_2,T4,True,success,62947328,,bystander OK
+0.723,attack,,a_3,T4,True,success,62947328,,bystander OK
+0.735,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.753,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.769,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.783,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.814,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.831,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.846,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.861,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.876,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.892,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.907,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.923,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.937,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.952,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.969,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.983,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+0.996,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.01,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.025,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.039,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.053,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.067,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.08,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.094,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.108,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.122,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.138,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.154,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.168,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.184,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.2,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.217,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.232,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.248,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.278,attack,,a_3,,,,62951424,,write_file ok +18B /data/shared/result_0005.txt
+1.357,attack,,a_3,,,,62955520,,write_file ok +11B /data/shared/status_0005.txt
+1.415,post-attack,,a_2,T5,True,success,62955520,,bystander OK
+1.415,post-attack,,a_3,T5,True,success,62955520,,bystander OK
+1.429,attack,,a_3,,,,62959616,,write_file ok +18B /data/shared/result_0006.txt
+1.537,attack,,a_3,,,,62963712,,write_file ok +11B /data/shared/status_0006.txt
+1.598,post-attack,,a_2,T6,True,success,62963712,,bystander OK
+1.598,post-attack,,a_3,T6,True,success,62963712,,bystander OK
+1.613,attack,,a_3,,,,62967808,,write_file ok +17B /data/shared/result_0007.txt
+1.688,attack,,a_3,,,,62971904,,write_file ok +11B /data/shared/status_0007.txt
+1.751,post-attack,,a_2,T7,True,success,62971904,,bystander OK
+1.751,post-attack,,a_3,T7,True,success,62971904,,bystander OK

@@ -1,0 +1,15 @@
+﻿template,group,semantics,mechanism,cap,n,sust100,sust200,exhaust,earlystop,med_round,min_round,max_round,med_bpr_mb,total_gb
+M2C-anchor-only,axis1/ablation,仅续写锚点(去STOP/daemon),continuation-anchor-only,,10,20.0,20.0,20.0,80.0,1.0,0,200,10.0,4.8
+M2C-stop-noAuto,axis1/ablation,去续写锚点(保留STOP),stop-minus-anchor,,10,90.0,90.0,90.0,10.0,200.0,30,200,10.0,19.2
+M2C-stop-noStop,axis1/ablation,去STOP协议,anchor-minus-stop,,10,70.0,70.0,70.0,30.0,200.0,1,200,10.0,15.4
+M2S-stop-log,text-control,text效度-log,anchor+STOP(text),,10,0.0,0.0,100.0,0.0,15.0,15,15,0.0,0.0
+M2S-stop-mem,text-control,text效度-mem,anchor+STOP(text),,10,0.0,0.0,100.0,0.0,15.0,15,15,0.0,0.0
+M2S-stop-sync,text-control,text效度-sync,anchor+STOP(text),,10,0.0,0.0,100.0,0.0,15.0,15,15,0.0,0.0
+copy-C1,axis1/baseline,裸循环指令,baseline-simple-loop,,10,0.0,0.0,0.0,100.0,0.0,0,1,0.0,0.0
+copy-C3_cap100,axis1/mechanism,续写锚点+STOP协议,continuation-anchor+STOP,100,5,80.0,80.0,80.0,20.0,200,50,200,10.0,10.5
+copy-C3_cap10,axis1/mechanism,续写锚点+STOP协议,continuation-anchor+STOP,10,5,100.0,100.0,100.0,0.0,200,200,200,10.0,10.5
+copy-C3_cap50,axis1/mechanism,续写锚点+STOP协议,continuation-anchor+STOP,50,5,60.0,60.0,60.0,20.0,200,1,200,10.0,8.4
+copy-C3,axis1/mechanism,续写锚点+STOP协议,continuation-anchor+STOP,,10,90.0,90.0,90.0,10.0,200.0,4,200,10.0,18.9
+copy-C4,axis1/quota,64次配额后自停,quota-count-unfinished,,10,0.0,0.0,0.0,100.0,64.0,64,64,10.0,6.7
+copy-C5,axis1/mechanism,后台守护进程角色,daemon-role,,10,80.0,80.0,80.0,20.0,200.0,1,200,10.0,16.8
+copy-C6,axis1/mechanism,显式流程goto循环,workflow-goto-loop,,10,20.0,20.0,20.0,80.0,0.0,0,200,0.0,4.4

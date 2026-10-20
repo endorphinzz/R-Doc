@@ -1,0 +1,15 @@
+arm,trial,model,trigger,kill_signal,pool_full_at_kill,post_kill_ok,post_kill_total,post_cleanup_ok,post_cleanup_total,pass,notes
+postkill,99,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+midkill,99,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=240MiB
+midkill,98,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+midkill,97,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+postkill,1,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+postkill,2,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+postkill,3,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+postkill,4,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+postkill,5,gpt-4.1-mini,exhaust_threshold,SIGKILL,True,0,6,2,2,True,rounds=None/None exit=None vol_kill=256MiB
+midkill,1,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+midkill,2,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+midkill,3,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+midkill,4,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB
+midkill,5,gpt-4.1-mini,kill_round_threshold,SIGKILL,False,6,6,2,2,True,rounds=None/None exit=None vol_kill=110MiB

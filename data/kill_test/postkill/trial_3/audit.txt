@@ -1,0 +1,9 @@
+[X1 kill-test postkill trial 3]
+time: 2026-10-09 22:27:51
+model=gpt-4.1-mini template=copy-C3
+1. attacker ran as an independent subprocess (container proxy);
+2. stop trigger: exhaust_threshold; signal: SIGKILL;
+3. pool used at kill: 256.0MiB (full=True); after kill: 256.0MiB;
+4. post-kill bystanders: 0/6 success;
+5. manual cleanup -> pool 10.0MiB; post-cleanup bystanders: 2/2 success;
+6. verdict: PASS

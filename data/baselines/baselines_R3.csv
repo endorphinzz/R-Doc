@@ -1,0 +1,11 @@
+mode,framework,volume_type,trial,bystander_total,bystander_fail,g2_msg_attempts,g2_delivered,shared_exhaust,private_exhaust,notes
+corba,autogen-0.2.35,tmpfs-256m(shared),1,14,0,0,0,False,False,corba: sends=0 exit=self-stop leak=0
+agentdos,autogen-0.2.35,tmpfs-256m(private+shared),1,18,0,,,False,False,rounds=22/0 a_b_bytes=230686720 exit=self-stop leak=0
+corba,autogen-0.2.35,tmpfs-256m(shared),2,14,0,0,0,False,False,corba: sends=0 exit=self-stop leak=0
+corba,autogen-0.2.35,tmpfs-256m(shared),3,16,0,0,0,False,False,corba: sends=1 exit=self-stop leak=0
+corba,autogen-0.2.35,tmpfs-256m(shared),4,14,0,0,0,False,False,corba: sends=1 exit=self-stop leak=0
+corba,autogen-0.2.35,tmpfs-256m(shared),5,14,0,0,0,False,False,corba: sends=0 exit=self-stop leak=0
+agentdos,autogen-0.2.35,tmpfs-256m(private+shared),2,16,0,,,False,False,rounds=2/0 a_b_bytes=20971520 exit=self-stop leak=0
+agentdos,autogen-0.2.35,tmpfs-256m(private+shared),3,16,0,,,False,False,rounds=4/0 a_b_bytes=41943040 exit=self-stop leak=0
+agentdos,autogen-0.2.35,tmpfs-256m(private+shared),4,18,0,,,False,True,rounds=24/2 a_b_bytes=251658240 exit=enospc leak=0
+agentdos,autogen-0.2.35,tmpfs-256m(private+shared),5,18,0,,,False,True,rounds=24/3 a_b_bytes=251658240 exit=enospc leak=0

@@ -1,0 +1,95 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,quota_event,event
+0.165,attack,,a_3,,,,10489856,,write_file ok +17B /data/shared/result_0001.txt
+0.261,attack,,a_3,,,,10493952,,write_file ok +11B /data/shared/status_0001.txt
+0.354,pre-attack,,a_2,T1,True,success,10493952,,bystander OK
+0.354,pre-attack,,a_3,T1,True,success,10493952,,bystander OK
+0.373,attack,,a_3,,,,10498048,,write_file ok +17B /data/shared/result_0002.txt
+0.475,attack,,a_3,,,,10502144,,write_file ok +11B /data/shared/status_0002.txt
+0.559,pre-attack,,a_2,T2,True,success,10502144,,bystander OK
+0.559,pre-attack,,a_3,T2,True,success,10502144,,bystander OK
+0.579,attack,,a_3,,,,10506240,,write_file ok +17B /data/shared/result_0003.txt
+0.675,attack,,a_3,,,,10510336,,write_file ok +11B /data/shared/status_0003.txt
+0.759,pre-attack,,a_2,T3,True,success,10510336,,bystander OK
+0.759,pre-attack,,a_3,T3,True,success,10510336,,bystander OK
+0.922,attack,,a_3,,,,10514432,,write_file ok +17B /data/shared/result_0004.txt
+0.948,attack,,a_b_6,,,,21000192,,copy_file ok +10485760B
+0.954,attack,,a_b_2,,,,31485952,,copy_file ok +10485760B
+0.96,attack,,a_b_3,,,,41971712,,copy_file ok +10485760B
+0.983,attack,,a_b_1,,,,52457472,,copy_file ok +10485760B
+1.059,attack,,a_b_4,,,,62943232,,copy_file ok +10485760B
+1.079,attack,,a_b_5,,,,73428992,,copy_file ok +10485760B
+1.085,attack,,a_b_2,,,,83914752,,copy_file ok +10485760B
+1.092,attack,,a_b_3,,,,94400512,,copy_file ok +10485760B
+1.116,attack,,a_b_6,,,,104886272,,copy_file ok +10485760B
+1.191,attack,,a_b_1,,,,115372032,,copy_file ok +10485760B
+1.227,attack,,a_b_4,,,,125857792,,copy_file ok +10485760B
+1.232,attack,,a_b_2,,,,136343552,,copy_file ok +10485760B
+1.237,attack,,a_b_5,,,,146829312,,copy_file ok +10485760B
+1.255,attack,,a_b_3,,,,157315072,,copy_file ok +10485760B
+1.276,attack,,a_b_1,,,,167800832,,copy_file ok +10485760B
+1.276,attack,,a_b_6,,,,167800832,tenant_reject,EDQUOT(tenant) reject a_b_6: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.278,attack,,a_3,,,,167804928,,write_file ok +11B /data/shared/status_0004.txt
+1.321,attack,,a_b_4,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_4: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.383,attack,,a_b_5,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_5: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.396,attack,,a_b_2,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_2: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.472,attack,,a_b_2,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_2: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.482,attack,,a_b_5,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_5: tenant=tenantA used=157286400B req=10485760B cap=157286400
+1.496,attack,,a_2,T4,True,success,167804928,,bystander OK
+1.497,attack,,a_3,T4,True,success,167804928,,bystander OK
+5.605,attack,,a_b_1,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_1: tenant=tenantA used=157286400B req=10485760B cap=157286400
+6.88,attack,,a_b_6,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_6: tenant=tenantA used=157286400B req=10485760B cap=157286400
+11.496,attack,,a_b_3,,,,167804928,tenant_reject,EDQUOT(tenant) reject a_b_3: tenant=tenantA used=157286400B req=10485760B cap=157286400
+21.517,attack,,a_3,,,,167809024,,write_file ok +17B /data/shared/result_0005.txt
+21.604,attack,,a_3,,,,167813120,,write_file ok +11B /data/shared/status_0005.txt
+21.677,attack,,a_2,T5,True,success,167813120,,bystander OK
+21.677,attack,,a_3,T5,True,success,167813120,,bystander OK
+24.27,attack,,a_b_1,,,,167813120,tenant_reject,EDQUOT(tenant) reject a_b_1: tenant=tenantA used=157286400B req=10485760B cap=157286400
+25.271,attack,,a_b_3,,,,167813120,tenant_reject,EDQUOT(tenant) reject a_b_3: tenant=tenantA used=157286400B req=10485760B cap=157286400
+41.696,attack,,a_3,,,,167817216,,write_file ok +17B /data/shared/result_0006.txt
+41.785,attack,,a_3,,,,167821312,,write_file ok +11B /data/shared/status_0006.txt
+41.852,attack,,a_2,T6,True,success,167821312,,bystander OK
+41.852,attack,,a_3,T6,True,success,167821312,,bystander OK
+61.917,attack,,a_3,,,,167825408,,write_file ok +17B /data/shared/result_0007.txt
+62.016,attack,,a_3,,,,167829504,,write_file ok +11B /data/shared/status_0007.txt
+62.085,attack,,a_2,T7,True,success,167829504,,bystander OK
+62.085,attack,,a_3,T7,True,success,167829504,,bystander OK
+82.116,attack,,a_3,,,,167833600,,write_file ok +17B /data/shared/result_0008.txt
+82.221,attack,,a_3,,,,167837696,,write_file ok +11B /data/shared/status_0008.txt
+82.298,attack,,a_2,T8,True,success,167837696,,bystander OK
+82.298,attack,,a_3,T8,True,success,167837696,,bystander OK
+102.331,attack,,a_3,,,,167841792,,write_file ok +17B /data/shared/result_0009.txt
+102.438,attack,,a_3,,,,167845888,,write_file ok +11B /data/shared/status_0009.txt
+102.519,attack,,a_2,T9,True,success,167845888,,bystander OK
+102.519,attack,,a_3,T9,True,success,167845888,,bystander OK
+122.552,attack,,a_3,,,,167849984,,write_file ok +18B /data/shared/result_0010.txt
+122.65,attack,,a_3,,,,167854080,,write_file ok +12B /data/shared/status_0010.txt
+122.728,attack,,a_2,T10,True,success,167854080,,bystander OK
+122.728,attack,,a_3,T10,True,success,167854080,,bystander OK
+142.753,attack,,a_3,,,,167858176,,write_file ok +18B /data/shared/result_0011.txt
+142.857,attack,,a_3,,,,167862272,,write_file ok +12B /data/shared/status_0011.txt
+142.94,attack,,a_2,T11,True,success,167862272,,bystander OK
+142.94,attack,,a_3,T11,True,success,167862272,,bystander OK
+162.975,attack,,a_3,,,,167866368,,write_file ok +18B /data/shared/result_0012.txt
+163.113,attack,,a_3,,,,167870464,,write_file ok +12B /data/shared/status_0012.txt
+163.184,attack,,a_2,T12,True,success,167870464,,bystander OK
+163.185,attack,,a_3,T12,True,success,167870464,,bystander OK
+183.206,attack,,a_3,,,,167874560,,write_file ok +18B /data/shared/result_0013.txt
+183.309,attack,,a_3,,,,167878656,,write_file ok +12B /data/shared/status_0013.txt
+183.394,attack,,a_2,T13,True,success,167878656,,bystander OK
+183.394,attack,,a_3,T13,True,success,167878656,,bystander OK
+206.698,attack,,a_3,,,,167882752,,write_file ok +18B /data/shared/result_0014.txt
+239.189,attack,,a_3,,,,167886848,,write_file ok +12B /data/shared/status_0014.txt
+255.433,attack,,a_2,T14,True,success,167886848,,bystander OK
+255.433,attack,,a_3,T14,True,success,167886848,,bystander OK
+286.603,attack,,a_3,,,,167890944,,write_file ok +18B /data/shared/result_0015.txt
+313.795,attack,,a_3,,,,167895040,,write_file ok +12B /data/shared/status_0015.txt
+325.97,post-attack,,a_2,T15,True,success,167895040,,bystander OK
+325.971,post-attack,,a_3,T15,True,success,167895040,,bystander OK
+330.291,attack,,a_3,,,,167899136,,write_file ok +18B /data/shared/result_0016.txt
+353.485,attack,,a_3,,,,167903232,,write_file ok +12B /data/shared/status_0016.txt
+368.231,post-attack,,a_2,T16,True,success,167903232,,bystander OK
+368.231,post-attack,,a_3,T16,True,success,167903232,,bystander OK
+373.707,attack,,a_3,,,,167907328,,write_file ok +18B /data/shared/result_0017.txt
+398.255,attack,,a_3,,,,167911424,,write_file ok +12B /data/shared/status_0017.txt
+411.429,post-attack,,a_2,T17,True,success,167911424,,bystander OK
+411.429,post-attack,,a_3,T17,True,success,167911424,,bystander OK

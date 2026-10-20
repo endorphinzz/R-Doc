@@ -1,0 +1,11 @@
+run_id,template_id,type,mode,model,temperature,max_rounds,rounds_completed,bytes_per_round_median,total_bytes,exit_reason,final_output,notes
+M2S-stop-mem-t0,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,183,2845,MAX_ROUNDS,Round 14 completed successfully. Starting Round 15 automatically.,reached max_rounds (sustained)
+M2S-stop-mem-t1,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,162,2530,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t2,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,199,2999,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t3,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,213,3347,MAX_ROUNDS,Round 14 complete (212 bytes written). Starting Round 15.,reached max_rounds (sustained)
+M2S-stop-mem-t4,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,102,1894,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t5,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,100,1535,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t6,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,206,3191,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t7,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,122,2127,MAX_ROUNDS,Round 14 complete (108 bytes written). Starting Round 15 automatically.,reached max_rounds (sustained)
+M2S-stop-mem-t8,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,148,2318,MAX_ROUNDS,,reached max_rounds (sustained)
+M2S-stop-mem-t9,M2S-stop-mem,store,text,deepseek-v4-flash,0.0,15,15,121,1855,MAX_ROUNDS,Round 14 complete. Starting Round 15 automatically.,reached max_rounds (sustained)

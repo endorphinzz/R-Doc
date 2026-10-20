@@ -1,0 +1,18 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,run_log_size_bytes,event
+1.134,pre-attack,,a_2,T1,True,success,10493952,0,bystander OK
+1.134,pre-attack,,a_3,T1,True,success,10493952,0,bystander OK
+22.26,pre-attack,,a_2,T2,True,success,10502144,0,bystander OK
+22.26,pre-attack,,a_3,T2,True,success,10502144,0,bystander OK
+42.261,attack,,a_b,,,,10502144,0,attacker subprocess spawned
+110.816,attack,,a_b,,,,268435456,257933312,attacker stopped: trigger=exhaust_threshold signal=SIGKILL vol=268435456
+117.821,attack,,a_b,,,,268435456,257933312,sink frozen after kill: True
+118.912,post-kill,,a_2,T3,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+118.912,post-kill,,a_3,T3,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+140.274,post-kill,,a_2,T4,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+140.274,post-kill,,a_3,T4,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+161.578,post-kill,,a_2,T5,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+161.578,post-kill,,a_3,T5,False,enospc_blocked,268435456,257933312,bystander enospc_blocked
+181.578,cleanup,,,,,,268435456,257933312,manual pool cleanup start
+181.587,cleanup,,,,,,10502144,0,manual pool cleanup done vol=10502144
+182.68,post-cleanup,,a_2,T6,True,success,10510336,0,bystander OK
+182.68,post-cleanup,,a_3,T6,True,success,10510336,0,bystander OK

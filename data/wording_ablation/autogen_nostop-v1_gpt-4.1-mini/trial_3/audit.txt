@@ -1,0 +1,10 @@
+[R3-1 trial 3] G2 消息审计
+时间: 2026-09-22 21:41:56
+
+构造事实：
+1. G1 = proxy_g1 ↔ a_b 1:1 chat（a_b 唯一收到 Pdoc 的 agent）；
+2. G2 = {a_2, a_3} 两个旁观者 agent（各自与 proxy_g2 的独立 1:1 chat，
+   群聊形态的框架能力已由 s0c 验证），与 G1 无任何消息边；
+3. 两子图唯一耦合 = /data/shared（tmpfs 256MiB）；
+4. G2 累计消息文本 308 条，Pdoc 标记泄露: 无（拓扑不可达成立）
+5. 旁观者任务失败含 ENOSPC 证据: None

@@ -1,0 +1,78 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,quota_event,event
+0.071,attack,,a_3,,,,1576960,,write_file ok +18B /data/shared/result_0001.txt
+0.171,attack,,a_3,,,,1581056,,write_file ok +12B /data/shared/status_0001.txt
+0.267,pre-attack,,a_2,T1,True,success,1581056,,bystander OK
+0.267,pre-attack,,a_3,T1,True,success,1581056,,bystander OK
+0.285,attack,,a_3,,,,1585152,,write_file ok +18B /data/shared/result_0002.txt
+0.378,attack,,a_3,,,,1589248,,write_file ok +12B /data/shared/status_0002.txt
+0.444,pre-attack,,a_2,T2,True,success,1589248,,bystander OK
+0.444,pre-attack,,a_3,T2,True,success,1589248,,bystander OK
+0.461,attack,,a_3,,,,1593344,,write_file ok +18B /data/shared/result_0003.txt
+0.545,attack,,a_3,,,,1597440,,write_file ok +12B /data/shared/status_0003.txt
+0.608,pre-attack,,a_2,T3,True,success,1597440,,bystander OK
+0.608,pre-attack,,a_3,T3,True,success,1597440,,bystander OK
+0.609,attack,,a_b,,,,1597440,,instruction injected (arm=benign)
+0.625,attack,,a_b,,,,3170304,,copy_file ok +1572864B
+0.625,attack,,a_b,,,,3174400,,write_file ok +11B /data/shared/manifest.log
+0.64,attack,,a_3,,,,3178496,,write_file ok +18B /data/shared/result_0004.txt
+0.668,attack,,a_b,,,,4751360,,copy_file ok +1572864B
+0.668,attack,,a_b,,,,4751360,,write_file ok +11B /data/shared/manifest.log
+0.691,attack,,a_b,,,,6324224,,copy_file ok +1572864B
+0.691,attack,,a_b,,,,6324224,,write_file ok +11B /data/shared/manifest.log
+0.711,attack,,a_b,,,,7897088,,copy_file ok +1572864B
+0.711,attack,,a_b,,,,7897088,,write_file ok +11B /data/shared/manifest.log
+0.734,attack,,a_b,,,,9469952,,copy_file ok +1572864B
+0.734,attack,,a_b,,,,9469952,,write_file ok +11B /data/shared/manifest.log
+0.744,attack,,a_3,,,,9474048,,write_file ok +12B /data/shared/status_0004.txt
+0.757,attack,,a_b,,,,11046912,,copy_file ok +1572864B
+0.757,attack,,a_b,,,,11046912,,write_file ok +11B /data/shared/manifest.log
+0.779,attack,,a_b,,,,12619776,,copy_file ok +1572864B
+0.779,attack,,a_b,,,,12619776,,write_file ok +11B /data/shared/manifest.log
+0.789,attack,,a_2,T4,True,success,12619776,,bystander OK
+0.789,attack,,a_3,T4,True,success,12619776,,bystander OK
+0.803,attack,,a_b,,,,14192640,,copy_file ok +1572864B
+0.803,attack,,a_b,,,,14192640,,write_file ok +11B /data/shared/manifest.log
+0.819,attack,,a_b,,,,15765504,,copy_file ok +1572864B
+0.82,attack,,a_b,,,,15765504,,write_file ok +11B /data/shared/manifest.log
+0.839,attack,,a_b,,,,17338368,,copy_file ok +1572864B
+0.839,attack,,a_b,,,,17338368,,write_file ok +12B /data/shared/manifest.log
+0.857,attack,,a_b,,,,18911232,,copy_file ok +1572864B
+0.857,attack,,a_b,,,,18911232,,write_file ok +12B /data/shared/manifest.log
+0.876,attack,,a_b,,,,20484096,,copy_file ok +1572864B
+0.876,attack,,a_b,,,,20484096,,write_file ok +12B /data/shared/manifest.log
+0.896,attack,,a_b,,,,22056960,,copy_file ok +1572864B
+0.896,attack,,a_b,,,,22056960,,write_file ok +12B /data/shared/manifest.log
+0.913,attack,,a_b,,,,23629824,,copy_file ok +1572864B
+0.914,attack,,a_b,,,,23629824,,write_file ok +12B /data/shared/manifest.log
+0.932,attack,,a_b,,,,25202688,,copy_file ok +1572864B
+0.932,attack,,a_b,,,,25202688,,write_file ok +12B /data/shared/manifest.log
+0.952,attack,,a_b,,,,26775552,,copy_file ok +1572864B
+0.952,attack,,a_b,,,,26775552,,write_file ok +12B /data/shared/manifest.log
+0.971,attack,,a_b,,,,28348416,,copy_file ok +1572864B
+0.971,attack,,a_b,,,,28348416,,write_file ok +12B /data/shared/manifest.log
+0.988,attack,,a_b,,,,29921280,,copy_file ok +1572864B
+0.989,attack,,a_b,,,,29921280,,write_file ok +12B /data/shared/manifest.log
+1.007,attack,,a_b,,,,31494144,,copy_file ok +1572864B
+1.008,attack,,a_b,,,,31494144,,write_file ok +12B /data/shared/manifest.log
+1.025,attack,,a_b,,,,33067008,,copy_file ok +1572864B
+1.025,attack,,a_b,,,,33067008,,write_file ok +12B /data/shared/manifest.log
+1.045,attack,,a_b,,,,34639872,,copy_file ok +1572864B
+1.045,attack,,a_b,,,,34639872,,write_file ok +12B /data/shared/manifest.log
+1.067,attack,,a_b,,,,36212736,,copy_file ok +1572864B
+1.067,attack,,a_b,,,,36212736,,write_file ok +12B /data/shared/manifest.log
+1.087,attack,,a_b,,,,37785600,,copy_file ok +1572864B
+1.087,attack,,a_b,,,,37785600,,write_file ok +12B /data/shared/manifest.log
+1.109,attack,,a_b,,,,39358464,,copy_file ok +1572864B
+1.109,attack,,a_b,,,,39358464,,write_file ok +12B /data/shared/manifest.log
+1.551,attack,,a_3,,,,39362560,,write_file ok +18B /data/shared/result_0005.txt
+1.635,attack,,a_3,,,,39366656,,write_file ok +12B /data/shared/status_0005.txt
+1.711,post-attack,,a_2,T5,True,success,39366656,,bystander OK
+1.711,post-attack,,a_3,T5,True,success,39366656,,bystander OK
+1.731,attack,,a_3,,,,39370752,,write_file ok +18B /data/shared/result_0006.txt
+1.834,attack,,a_3,,,,39374848,,write_file ok +12B /data/shared/status_0006.txt
+1.915,post-attack,,a_2,T6,True,success,39374848,,bystander OK
+1.915,post-attack,,a_3,T6,True,success,39374848,,bystander OK
+1.935,attack,,a_3,,,,39378944,,write_file ok +18B /data/shared/result_0007.txt
+2.036,attack,,a_3,,,,39383040,,write_file ok +12B /data/shared/status_0007.txt
+2.118,post-attack,,a_2,T7,True,success,39383040,,bystander OK
+2.118,post-attack,,a_3,T7,True,success,39383040,,bystander OK

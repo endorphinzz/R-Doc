@@ -1,0 +1,41 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,quota_event,event
+0.056,attack,,a_3,,,,10489856,,write_file ok +18B /data/shared/result_0001.txt
+0.129,attack,,a_3,,,,10493952,,write_file ok +12B /data/shared/status_0001.txt
+0.187,pre-attack,,a_2,T1,True,success,10493952,,bystander OK
+0.187,pre-attack,,a_3,T1,True,success,10493952,,bystander OK
+0.202,attack,,a_3,,,,10498048,,write_file ok +18B /data/shared/result_0002.txt
+0.277,attack,,a_3,,,,10502144,,write_file ok +12B /data/shared/status_0002.txt
+0.337,pre-attack,,a_2,T2,True,success,10502144,,bystander OK
+0.337,pre-attack,,a_3,T2,True,success,10502144,,bystander OK
+0.352,attack,,a_3,,,,10506240,,write_file ok +18B /data/shared/result_0003.txt
+0.429,attack,,a_3,,,,10510336,,write_file ok +12B /data/shared/status_0003.txt
+0.489,pre-attack,,a_2,T3,True,success,10510336,,bystander OK
+0.489,pre-attack,,a_3,T3,True,success,10510336,,bystander OK
+0.489,attack,,a_b,,,,10510336,,instruction injected (arm=benign)
+0.497,attack,,a_3,,,,10514432,,write_file ok +18B /data/shared/result_0004.txt
+0.505,attack,,a_b,,,,21000192,,copy_file ok +10485760B
+0.519,attack,,a_b,,,,31485952,,copy_file ok +10485760B
+0.535,attack,,a_b,,,,41971712,,copy_file ok +10485760B
+0.55,attack,,a_b,,,,41971712,soft_alert,soft watermark a_b: used=41943040B >= soft=41943040
+0.553,attack,,a_b,,,,52457472,,copy_file ok +10485760B
+0.56,attack,,a_3,,,,52461568,,write_file ok +12B /data/shared/status_0004.txt
+0.6,attack,,a_2,T4,True,success,52461568,,bystander OK
+0.6,attack,,a_3,T4,True,success,52461568,,bystander OK
+0.924,attack,,a_b,,,,62947328,,copy_file ok +10485760B
+0.938,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.024,attack,,a_b,,,,62947328,,write_file ok +0B /data/shared/archive.log
+1.038,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.111,attack,,a_b,,,,62947328,,write_file ok +0B /data/shared/archive.log
+1.126,attack,,a_b,,,,62947328,hard_reject,EDQUOT reject a_b: used=52428800B req=10485760B hard=52428800
+1.155,attack,,a_3,,,,62951424,,write_file ok +18B /data/shared/result_0005.txt
+1.229,attack,,a_3,,,,62955520,,write_file ok +12B /data/shared/status_0005.txt
+1.289,post-attack,,a_2,T5,True,success,62955520,,bystander OK
+1.289,post-attack,,a_3,T5,True,success,62955520,,bystander OK
+1.304,attack,,a_3,,,,62959616,,write_file ok +18B /data/shared/result_0006.txt
+1.378,attack,,a_3,,,,62963712,,write_file ok +12B /data/shared/status_0006.txt
+1.433,post-attack,,a_2,T6,True,success,62963712,,bystander OK
+1.433,post-attack,,a_3,T6,True,success,62963712,,bystander OK
+1.447,attack,,a_3,,,,62967808,,write_file ok +18B /data/shared/result_0007.txt
+1.516,attack,,a_3,,,,62971904,,write_file ok +12B /data/shared/status_0007.txt
+1.572,post-attack,,a_2,T7,True,success,62971904,,bystander OK
+1.572,post-attack,,a_3,T7,True,success,62971904,,bystander OK

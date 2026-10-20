@@ -1,0 +1,18 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,run_log_size_bytes,event
+1.175,pre-attack,,a_2,T1,True,success,10493952,0,bystander OK
+1.175,pre-attack,,a_3,T1,True,success,10493952,0,bystander OK
+22.302,pre-attack,,a_2,T2,True,success,10502144,0,bystander OK
+22.302,pre-attack,,a_3,T2,True,success,10502144,0,bystander OK
+42.303,attack,,a_b,,,,10502144,0,attacker subprocess spawned
+46.311,attack,,a_b,,,,251674624,241172480,attacker stopped: trigger=kill_round_threshold signal=SIGKILL vol=251674624
+53.316,attack,,a_b,,,,251674624,241172480,sink frozen after kill: True
+70.636,post-kill,,a_2,T3,True,success,251682816,241172480,bystander OK
+70.637,post-kill,,a_3,T3,True,success,251682816,241172480,bystander OK
+109.558,post-kill,,a_2,T4,True,success,251691008,241172480,bystander OK
+109.558,post-kill,,a_3,T4,True,success,251691008,241172480,bystander OK
+143.57,post-kill,,a_2,T5,True,success,251699200,241172480,bystander OK
+143.57,post-kill,,a_3,T5,True,success,251699200,241172480,bystander OK
+163.57,cleanup,,,,,,251699200,241172480,manual pool cleanup start
+163.577,cleanup,,,,,,10526720,0,manual pool cleanup done vol=10526720
+164.698,post-cleanup,,a_2,T6,True,success,10534912,0,bystander OK
+164.698,post-cleanup,,a_3,T6,True,success,10534912,0,bystander OK

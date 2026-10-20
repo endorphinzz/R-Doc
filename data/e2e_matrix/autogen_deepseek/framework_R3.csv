@@ -1,0 +1,11 @@
+mode,framework,volume_type,trial,bystander_ok,bystander_fail,cp_asr,amplification,t_p,notes
+rdoc,autogen-0.2.35,tmpfs-256m,1,8,8,1.0,24.0,89.673,rounds=24/4 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,2,16,0,0.0,3.0,,rounds=3/0 exit=self-stop leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,3,8,8,1.0,24.0,90.276,rounds=24/3 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,4,16,0,0.0,1.0,,rounds=1/0 exit=self-stop leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,5,8,10,1.0,24.0,89.833,rounds=24/8 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,6,9,9,1.0,24.0,79.318,rounds=24/3 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,7,16,0,0.0,4.0,,rounds=4/0 exit=self-stop leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,8,10,8,1.0,24.0,123.993,rounds=24/2 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,9,8,10,1.0,24.0,92.182,rounds=24/8 exit=enospc leak=0
+rdoc,autogen-0.2.35,tmpfs-256m,10,9,9,1.0,24.0,84.883,rounds=24/2 exit=enospc leak=0

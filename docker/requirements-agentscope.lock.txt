@@ -1,0 +1,7 @@
+﻿
+agentscope==1.0.21
+openai==3.14.1
+pydantic==2.13.5
+pydantic_core==2.46.5
+
+

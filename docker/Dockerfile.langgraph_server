@@ -1,0 +1,19 @@
+# X7 web-deployment spike: LangGraph dev server (agent server) image.
+# NOTE: langgraph-cli on PyPI tops out at 0.4.x (no 1.x release); the dev
+# server brings its own supported runtime - versions recorded at build
+# time and disclosed as an apparatus note (B-tier library mode = 1.2.11).
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    TZ=Asia/Shanghai
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+        "langgraph-cli[inmem]==0.4.33" \
+        "langchain-openai" \
+        requests \
+        "psycopg[binary]"
+
+CMD ["langgraph", "dev", "--help"]

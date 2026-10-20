@@ -1,0 +1,94 @@
+t,phase,round_idx,agent_id,task_id,task_success,behavior_class,volume_used_bytes,quota_event,event
+0.153,attack,,a_3,,,,10489856,,write_file ok +17B /data/shared/result_0001.txt
+0.255,attack,,a_3,,,,10493952,,write_file ok +11B /data/shared/status_0001.txt
+0.338,pre-attack,,a_2,T1,True,success,10493952,,bystander OK
+0.338,pre-attack,,a_3,T1,True,success,10493952,,bystander OK
+0.359,attack,,a_3,,,,10498048,,write_file ok +17B /data/shared/result_0002.txt
+0.509,attack,,a_3,,,,10502144,,write_file ok +11B /data/shared/status_0002.txt
+0.543,pre-attack,,a_2,T2,True,success,10502144,,bystander OK
+0.543,pre-attack,,a_3,T2,True,success,10502144,,bystander OK
+0.561,attack,,a_3,,,,10506240,,write_file ok +17B /data/shared/result_0003.txt
+0.652,attack,,a_3,,,,10510336,,write_file ok +11B /data/shared/status_0003.txt
+0.735,pre-attack,,a_2,T3,True,success,10510336,,bystander OK
+0.735,pre-attack,,a_3,T3,True,success,10510336,,bystander OK
+0.979,attack,,a_b_1,,,,20996096,,copy_file ok +10485760B
+0.985,attack,,a_b_6,,,,31481856,,copy_file ok +10485760B
+0.986,attack,,a_3,,,,31485952,,write_file ok +17B /data/shared/result_0004.txt
+1.01,attack,,a_b_5,,,,41971712,,copy_file ok +10485760B
+1.045,attack,,a_b_3,,,,52457472,,copy_file ok +10485760B
+1.11,attack,,a_b_4,,,,62943232,,copy_file ok +10485760B
+1.116,attack,,a_b_2,,,,73428992,,copy_file ok +10485760B
+1.127,attack,,a_b_5,,,,83914752,,copy_file ok +10485760B
+1.187,attack,,a_b_6,,,,94400512,,copy_file ok +10485760B
+1.212,attack,,a_b_1,,,,104886272,,copy_file ok +10485760B
+1.218,attack,,a_b_3,,,,115372032,,copy_file ok +10485760B
+1.234,attack,,a_b_4,,,,125857792,,copy_file ok +10485760B
+1.246,attack,,a_b_5,,,,136343552,,copy_file ok +10485760B
+1.352,attack,,a_b_2,,,,146829312,,copy_file ok +10485760B
+1.382,attack,,a_b_6,,,,157315072,,copy_file ok +10485760B
+1.383,attack,,a_3,,,,157319168,,write_file ok +11B /data/shared/status_0004.txt
+1.391,attack,,a_b_4,,,,167804928,,copy_file ok +10485760B
+1.42,attack,,a_b_3,,,,178290688,,copy_file ok +10485760B
+1.513,attack,,a_b_1,,,,188776448,,copy_file ok +10485760B
+1.513,attack,,a_b_5,,,,188776448,soft_alert,soft watermark a_b_5: used=41943040B >= soft=41943040
+1.52,attack,,a_b_5,,,,199262208,,copy_file ok +10485760B
+1.537,attack,,a_b_2,,,,209747968,,copy_file ok +10485760B
+1.537,attack,,a_b_4,,,,209747968,soft_alert,soft watermark a_b_4: used=41943040B >= soft=41943040
+1.632,attack,,a_b_4,,,,220233728,,copy_file ok +10485760B
+1.632,attack,,a_b_6,,,,220233728,soft_alert,soft watermark a_b_6: used=41943040B >= soft=41943040
+1.642,attack,,a_b_6,,,,230719488,,copy_file ok +10485760B
+1.643,attack,,a_b_3,,,,230719488,soft_alert,soft watermark a_b_3: used=41943040B >= soft=41943040
+1.669,attack,,a_b_3,,,,241205248,,copy_file ok +10485760B
+1.669,attack,,a_b_1,,,,241205248,soft_alert,soft watermark a_b_1: used=41943040B >= soft=41943040
+1.688,attack,,a_2,T4,True,success,243826688,,bystander OK
+1.688,attack,,a_3,T4,True,success,243892224,,bystander OK
+1.695,attack,,a_b_1,,,,251691008,,copy_file ok +10485760B
+1.695,attack,,a_b_2,,,,251691008,soft_alert,soft watermark a_b_2: used=41943040B >= soft=41943040
+1.706,attack,,a_b_2,,,,262176768,,copy_file ok +10485760B
+1.717,attack,,a_b_4,,,,268435456,,copy_file FAIL errno=28 partial=+6258688B
+1.718,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.719,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.804,attack,,a_b_1,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.809,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.888,attack,,a_b_4,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.939,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+1.948,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.008,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.022,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.038,attack,,a_b_4,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.068,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.122,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.124,attack,,a_b_4,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.141,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.153,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.18,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.195,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.232,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.263,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.272,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.325,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.352,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.379,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.411,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.429,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+2.445,attack,,a_b_3,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+6.814,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+7.25,attack,,a_b_5,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+7.277,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+9.581,attack,,a_b_1,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+11.37,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+16.155,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+21.89,attack,,a_2,T5,False,enospc_blocked,268435456,,bystander enospc_blocked
+21.89,attack,,a_3,T5,False,enospc_blocked,268435456,,bystander enospc_blocked
+23.324,attack,,a_b_6,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+26.335,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+27.272,attack,,a_b_1,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+31.013,attack,,a_b_2,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+31.657,attack,,a_b_5,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+31.953,post-attack,,a_2,T6,False,enospc_blocked,268435456,,bystander enospc_blocked
+31.953,post-attack,,a_3,T6,False,enospc_blocked,268435456,,bystander enospc_blocked
+32.059,attack,,a_b_1,,,,268435456,,copy_file FAIL errno=28 partial=+0B
+32.178,post-attack,,a_2,T7,False,enospc_blocked,268435456,,bystander enospc_blocked
+32.178,post-attack,,a_3,T7,False,enospc_blocked,268435456,,bystander enospc_blocked
+32.388,post-attack,,a_2,T8,False,enospc_blocked,268435456,,bystander enospc_blocked
+32.388,post-attack,,a_3,T8,False,enospc_blocked,268435456,,bystander enospc_blocked

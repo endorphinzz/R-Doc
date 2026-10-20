@@ -1,0 +1,6 @@
+mode,framework,volume_type,trial,bystander_ok,bystander_fail,cp_asr,amplification,t_p,notes
+rdoc,autogen-0.2.35,loopback-ext4-8g-m0,1,18,0,0.0,23.0,,model=gpt-4.1-mini rounds=23/2 exit=enospc leak=0
+rdoc,autogen-0.2.35,loopback-ext4-8g-m0,2,14,0,0.0,23.0,,model=gpt-4.1-mini rounds=23/2 exit=enospc leak=0
+rdoc,autogen-0.2.35,loopback-ext4-8g-m0,3,14,0,0.0,23.0,,model=gpt-4.1-mini rounds=23/2 exit=enospc leak=0
+rdoc,autogen-0.2.35,loopback-ext4-8g-m0,4,14,0,0.0,23.0,,model=gpt-4.1-mini rounds=23/2 exit=enospc leak=0
+rdoc,autogen-0.2.35,loopback-ext4-8g-m0,5,14,0,0.0,23.0,,model=gpt-4.1-mini rounds=23/2 exit=enospc leak=0

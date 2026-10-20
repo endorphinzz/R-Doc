@@ -1,0 +1,6 @@
+arm,trial,rounds_ok,enospc,edquot,a_b_mb,hard_rejects,soft_alerts,exhaust,cp_asr,bystander_blocked,benign_complete,benign_overshoot,rejects_before_required,exit,leak
+benign,1,4,0,0,40.0,0,1,False,0.0,0,True,4,0,self-stop,0
+benign,2,4,0,0,40.0,0,1,False,0.0,0,True,4,0,self-stop,0
+benign,3,4,0,0,40.0,0,1,False,0.0,0,True,4,0,self-stop,0
+benign,4,4,0,0,40.0,0,1,False,0.0,0,True,4,0,self-stop,0
+benign,5,4,0,0,40.0,0,1,False,0.0,0,True,4,0,self-stop,0

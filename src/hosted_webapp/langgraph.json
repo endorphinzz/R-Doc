@@ -1,0 +1,7 @@
+{
+  "dependencies": ["app.py"],
+  "graphs": {
+    "attacker_housekeeping": "./app.py:attack_graph",
+    "bystander_status": "./app.py:bystander_graph"
+  }
+}
