@@ -20,6 +20,7 @@ rdoc-artifact/
     analysis/       detection analysis and Fisher/Wilson/Holm statistics
   docker/           Dockerfiles and pinned requirements per framework
   launch/           generic container launcher
+  exposure-check/  operator checklist + probe for the three-question exposure test
   data/             per-trial logs for every arm reported in the paper (DATA.md)
   prereg/           pre-registered predictions for the capacity-ladder and
                     two-tier-ledger experiments
@@ -58,6 +59,7 @@ POOL_MIB=256 bash launch/run_cell.sh cell1 rdoc-autogen:0.1 env.env \
 | `run_hosted.py` + `hosted_webapp/` | hosted LangGraph dev server, one-POST delivery | 5.2, App. F |
 | `run_controlled.py` | controlled-tier construction matrix (single agent, direct API) | App. E |
 | `run_cap_ablation.py` | per-request cap ablation S1-S4 | 5.3 |
+| `../exposure-check/probe_reply.py` | exposure-check probe: model-side persistence vs. continuation dependence | 6 |
 | `detection.py` | pre-declared pool-granularity alarm rule over trial artifacts | 5.3, Fig. 4 |
 | `fisher_tests.py` | all Fisher exact tests / Wilson CIs / Holm correction | App. C |
 
